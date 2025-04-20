@@ -1,113 +1,58 @@
-// src/App.jsx
-import React from "react";
-import "./index.css";
+# 🌍 Tour Guide Exchange - TGT Token Platform
 
-export default function App() {
-  return (
-    <main className="min-h-screen bg-gradient-to-br from-white to-blue-50 text-gray-800 p-6">
-      <div className="max-w-4xl mx-auto space-y-10">
-        <header className="text-center">
-          <h1 className="text-4xl font-bold mb-2">🌐 Tour Guide Exchange</h1>
-          <p className="text-lg">Démonstration / Demo</p>
-        </header>
+Welcome to **Tour Guide Exchange**, the innovative crypto exchange platform powered by the **TGT (Tour Guide Token)**.  
+Bienvenue sur **Tour Guide Exchange**, la plateforme d'échange crypto innovante propulsée par le **TGT (Tour Guide Token)**.
 
-        <section className="grid md:grid-cols-2 gap-8">
-          <div>
-            <h2 className="text-2xl font-semibold mb-2">🇫🇷 Échangez vos cryptos facilement avec Tour Guide Token (TGT)</h2>
-            <p>
-              Tour Guide Exchange est une plateforme innovante qui vous permet d’acheter,
-              vendre et échanger des cryptomonnaies en toute sécurité, avec un focus
-              particulier sur notre jeton utilitaire : <strong>TGT (Tour Guide Token)</strong>.
-            </p>
-          </div>
-          <div>
-            <h2 className="text-2xl font-semibold mb-2">🇺🇸 Easily trade your crypto with Tour Guide Token (TGT)</h2>
-            <p>
-              Tour Guide Exchange is an innovative platform that lets you buy, sell, and
-              swap cryptocurrencies securely, with a special focus on our utility token:
-              <strong> TGT (Tour Guide Token)</strong>.
-            </p>
-          </div>
-        </section>
+---
 
-        <section className="bg-white rounded-2xl shadow p-6">
-          <h3 className="text-xl font-bold mb-4">🚀 Fonctionnalités / Features</h3>
-          <ul className="list-disc list-inside space-y-2">
-            <li>💱 Échange rapide entre BTC, ETH, SOL, et TGT / Fast swap between BTC, ETH, SOL, and TGT</li>
-            <li>🛡️ Sécurité renforcée / Reinforced security</li>
-            <li>📲 Interface simple et intuitive / Simple and intuitive interface</li>
-            <li>🗺️ Connecté à Haiticherie.net pour les services touristiques / Connected to Haiticherie.net for tourism services</li>
-          </ul>
-        </section>
+## 🔹 About / À propos
 
-        <section className="bg-white rounded-2xl shadow p-6">
-          <h3 className="text-xl font-bold mb-4">🔁 Comment ça marche ? / How does it work?</h3>
-          <ol className="list-decimal list-inside space-y-1">
-            <li>Créez un compte / Create an account</li>
-            <li>Déposez vos cryptos / Deposit your crypto</li>
-            <li>Échangez contre TGT ou d'autres actifs / Swap with TGT or other assets</li>
-            <li>Utilisez vos TGT pour réserver des tours ou des expériences locales / Use TGT to book tours or local experiences</li>
-          </ol>
-        </section>
+**Tour Guide Exchange** is designed to facilitate seamless transactions for guided tours and tourism services using blockchain technology.  
+**Tour Guide Exchange** est conçu pour faciliter les transactions liées aux visites guidées et services touristiques via la technologie blockchain.
 
-        <section className="bg-white rounded-2xl shadow p-6">
-          <h3 className="text-xl font-bold mb-4">🪙 À propos du TGT / About TGT</h3>
-          <ul className="list-disc list-inside space-y-2">
-            <li>Blockchain : <strong>Solana</strong></li>
-            <li>Utilité : Paiement de services touristiques, jeu Tap-to-Earn, avantages spéciaux sur Haiticherie.net</li>
-            <li>Bientôt listé publiquement / Soon to be listed publicly</li>
-          </ul>
-        </section>
-      </div>
-    </main>
-  );
-}
+🪙 TGT (Tour Guide Token)  
+- Token Utility: Booking tours, earning rewards, accessing exclusive travel perks.  
+- Blockchain: **Solana**  
+- Total Supply: 1,000,000,000 TGT  
+- Contract Address: *(to be added)*
 
-// src/main.jsx
-import React from "react";
-import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import "./index.css";
+---
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+## ⚙️ Features / Fonctionnalités
 
-// index.html
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tour Guide Exchange</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+- 🔐 **Secure & Fast** – Powered by Solana for high-speed transactions.  
+- 💳 **Tap to Earn** – Earn TGT by playing our interactive tour-based game.  
+- 🧭 **Tourist Rewards** – Get bonuses for booking and reviewing local attractions.  
+- 🌐 **Global Access** – Exchange from anywhere, anytime.
 
-// tailwind.config.js
-export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+---
 
-// postcss.config.js
-export default {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
-};
+## 🚀 How to Use / Comment utiliser
 
-// index.css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+1. **Create your wallet / Crée ton portefeuille**
+2. **Get TGT tokens / Obtiens des tokens TGT**
+3. **Explore tours and earn / Explore des tours et gagne**
 
+---
+
+## 📲 Live Demo / Démo en ligne
+
+👉 [haiticherie.net/tourguide-exchange](http://haiticherie.net/tourguide-exchange)
+
+---
+
+## 🧠 Team / Équipe
+
+Founder / Fondateur : **Smith Chevry**  
+More about the team coming soon!
+
+---
+
+## 📫 Contact
+
+For partnerships or inquiries / Pour les partenariats ou questions :  
+📧 haiticherie509@gmail.com
+
+---
+
+*Built with ❤️ in Haïti | Construit avec ❤️ en Haïti*
